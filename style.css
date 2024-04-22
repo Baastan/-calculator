@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+    margin: 200px;
+}
+.naz {
+    text-align: center;
+    margin-bottom: 50px;
+    color: red;
+}
+.boss{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.boss button{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 10px red;
+    cursor: pointer;
+}
+.boss h1{
+    color: red;
+}
+.block-one{
+    color: red;
+    text-align: center;
+}
+#asd{
+    font-size: 60px;
+}
+@media (max-width: 610px){
+    .boss button{
+        width: auto;
+        height: auto;
+        box-shadow: 0px 0px 5px 5px red;
+    }
+}
